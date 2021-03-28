@@ -17,11 +17,11 @@
 
     <modules>
         <module>common</module>
-        <module>common/common-util</module>
         <module>model</module>
         <module>service</module>
         <module>service-client</module>
         <module>service-gateway</module>
+        <module>service</module>
     </modules>
 
     <properties>
