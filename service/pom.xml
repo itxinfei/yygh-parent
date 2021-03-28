@@ -29,7 +29,6 @@
             <artifactId>model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
-
         <!--web-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -67,7 +66,8 @@
              <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
          </dependency>-->
     </dependencies>
-    <build>
+
+   <!-- <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -94,5 +94,5 @@
                 <filtering>false</filtering>
             </resource>
         </resources>
-    </build>
+    </build>-->
 </project>

@@ -1,6 +1,8 @@
 package com.atguigu.yygh.user.api;
 
 import com.alibaba.fastjson.JSONObject;
+import com.atguigu.yygh.common.helper.JwtHelper;
+import com.atguigu.yygh.common.result.Result;
 import com.atguigu.yygh.model.user.UserInfo;
 import com.atguigu.yygh.user.service.UserInfoService;
 import com.atguigu.yygh.user.utils.ConstantWxPropertiesUtils;
