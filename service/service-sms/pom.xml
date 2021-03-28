@@ -17,9 +17,8 @@
             <artifactId>aliyun-java-sdk-core</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.atguigu</groupId>
-            <artifactId>rabbit-util</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-redis</artifactId>
         </dependency>
     </dependencies>
 </project>

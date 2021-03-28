@@ -16,7 +16,7 @@
         <module>service-user</module>
         <module>service-hosp</module>
         <module>service-cmn</module>
-        <module>service-msm</module>
+        <module>service-sms</module>
         <module>service-oss</module>
         <module>service-order</module>
         <module>service-task</module>
@@ -27,6 +27,21 @@
         <dependency>
             <groupId>com.atguigu</groupId>
             <artifactId>model</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.atguigu</groupId>
+            <artifactId>common-util</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.atguigu</groupId>
+            <artifactId>rabbit-util</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.atguigu</groupId>
+            <artifactId>service-util</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <!--web-->
@@ -67,7 +82,7 @@
          </dependency>-->
     </dependencies>
 
-   <!-- <build>
+    <build>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -94,5 +109,5 @@
                 <filtering>false</filtering>
             </resource>
         </resources>
-    </build>-->
+    </build>
 </project>

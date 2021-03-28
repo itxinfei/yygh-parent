@@ -13,7 +13,6 @@
     <artifactId>yygh-parent</artifactId>
     <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
-    <description>Demo project for Spring Boot</description>
 
     <modules>
         <module>common</module>
@@ -21,7 +20,6 @@
         <module>service</module>
         <module>service-client</module>
         <module>service-gateway</module>
-        <module>service</module>
         <module>hospital-manage</module>
     </modules>
 

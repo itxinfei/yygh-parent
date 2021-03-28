@@ -7,8 +7,6 @@ import lombok.Data;
 
 /**
  * 自定义全局异常类
- *
- * @author qy
  */
 @Data
 @ApiModel(value = "自定义全局异常类")
@@ -19,6 +17,7 @@ public class YyghException extends RuntimeException {
 
     /**
      * 通过状态码和错误消息创建异常对象
+     *
      * @param message
      * @param code
      */
@@ -29,6 +28,7 @@ public class YyghException extends RuntimeException {
 
     /**
      * 接收枚举类型对象
+     *
      * @param resultCodeEnum
      */
     public YyghException(ResultCodeEnum resultCodeEnum) {
